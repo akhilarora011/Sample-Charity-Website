@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+    <!-- ########## BootStrap CDN Links ######### -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      
+      <link rel="stylesheet" href="styles.css">
+
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+  ></script>
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- MDB -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+    rel="stylesheet"
+  />
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+     <!-- ########## BootStrap CDN Links ######### -->
+</head>
+<body >
+    <section >
+   <!-- ########## Navbar ############# -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid " id="main">
+      <a class="navbar-brand heading01" href="/"><img src="images/logo.jpg" style="max-height:5vh" alt=""> <strong> Charity Website </strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/Contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <form class="d-flex input-group w-auto">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Type query"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-dark"
+            type="button"
+            data-mdb-ripple-color="dark"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+      <!-- ########## Navbar ############# -->
+    </section>
+    <!-- ########## Main layout ########## -->
+<!-- ############ Carousal ########## -->
+<!-- Carousel wrapper -->
+
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+  
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img src="images/car-01.avif" style="max-height:92vh" class="d-block w-100" alt="Sunset Over the City"/>
+        <div class="carousel-caption d-none d-md-block car-01" >
+          <h2 >Welcome to the Charity Website!</h2>
+          <h5>Help people those in need!</h5>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="images/car-02.avif" style="max-height:92vh" class="d-block w-100" alt="Canyon at Nigh"/>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>To help others is to show kindness!</h2>
+          <h5>Helping others keeps the humanity in us Alive.</h5>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="images/car-03.avif" style="max-height:92vh" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Serve the society, server the god.</h2>
+          <h5>Be Kind toward others, God will be gentle towards you.</h5>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Carousel wrapper -->
+<!-- ############ Carousal ########## -->
+      
+          <!--Main layout-->
+          <main class="mt-5">
+            <div class="container">
+              <!--Section: Content-->
+              <section>
+                <div class="row">
+                  <div class="col-md-6 gx-5 mb-4">
+                    <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                      <img src="images/upper-01.jpg" class="img-fluid" />
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                  </div>
+      
+                  <div class="col-md-6 gx-5 mb-4">
+                    <h4><strong>Help in a Greater cause!</strong></h4>
+                    <p class="text-muted">
+                        Money is not the only commodity that is fun to give. We can give time, we can give our expertise, 
+                        we can give our love, or simply give a smile. What does that cost? The point is, none of us can ever 
+                        run out of something worthwhile to give.
+
+                    </p>
+                    
+                    <p class="text-muted">
+                      Too often we underestimate the power of a touch, 
+                      a smile, a kind word, a listening ear, an honest compliment, 
+                      or the smallest act of caring, all of which have the potential to turn a life around.
+
+                      Leo Buscaglia
+                    </p>
+                    <p class="text-muted">
+                      One of the marvelous things about community is that it enables us to welcome and help people in a way we
+                       couldn’t as individuals. When we pool our strength and share the work and responsibility, we can welcome many people, 
+                      even those in deep distress, and perhaps help them find self-confidence and inner healing.
+                    </p>
+                    <button type="button" class="btn btn-dark  btn-lg">Donate Now!</button>
+                  </div>
+                </div>
+              </section>
+              <!--Section: Content-->
+      
+              <!-- <hr class="my-5" /> -->
+      
+              <!--Section: Content-->
+              <section class="text-center">
+                <h4 class="mb-5"><strong>Events And Drives Done by the Charity Company</strong></h4>
+      
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                          src="images/1.jpg"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Be Kind!</h5>
+                        <p class="card-text">
+                          While we do our good works let us not forget
+                           that the real solution lies in a world in which charity will have become unnecessary.
+                        </p>
+                        <a href="#!" class="btn btn-dark">Button</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                          src="images/2.jpg"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Be Kind!</h5>
+                        <p class="card-text">
+                          While we do our good works let us not forget that
+                           the real solution lies in a world in which charity will have become unnecessary.
+                        </p>
+                        <a href="#!" class="btn btn-dark">Button</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                        
+                          src="images/1.jpg"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Be Kind!</h5>
+                        <p class="card-text">
+                          While we do our good works let us not forget that the real 
+                          solution lies in a world in which charity will have become unnecessary.
+                        </p>
+                        <a href="#!" class="btn btn-dark">Button1</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+             
+              </div>
+              </div>
+              <!--Section: Footer-->
+              <footer class="text-center text-white" style="background-color: #f1f1f1;">
+                <!-- Grid container -->
+                <div class="container pt-4">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+              
+                    <!-- Twitter -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+              
+                    <!-- Google -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-google"></i
+                    ></a>
+              
+                    <!-- Instagram -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+              
+                    <!-- Linkedin -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <!-- Github -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </section>
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2022 Copyright:
+                  <a class="text-dark" href="https://mdbootstrap.com/">Charity Website.</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+            
+              
+          <!--Footer-->
+    <!-- ########## Main layout ########## -->
+    
+    
+</body>
+</html>
